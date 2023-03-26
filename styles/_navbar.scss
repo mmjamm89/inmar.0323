@@ -1,0 +1,107 @@
+//VARIABLES
+
+//COLORS
+$color-1: #2f2d2d;
+$color-2: #FBF8F4;
+$color-3: white;
+$color-4: #FEF2D4;
+
+//FONTS
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap');
+$font-1: 'Lexend Tera', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+$font-2: 'Mulish', sans-serif;
+
+//PADDING
+
+//OTHER
+
+//STYLES
+
+#navbar {
+    position: fixed;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    z-index: 99;
+    background-color: #2f2d2d;
+    .navbar {        
+        display: flex;
+        justify-content: space-between;
+        width: 90vw;
+        // padding-left: 5px;
+        // padding-right: 5px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        .logo {
+            display: grid;
+            place-items: center;
+            align-content: center;
+        }
+    }
+}
+
+// MOBILE NAV
+.mobile-nav {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    position: fixed;
+    top: -150%;
+    // left: 100%;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 98;
+    background-color: $color-1;    
+    transition: 1s;
+    a {
+        color: $color-2;
+    }
+}
+.mobile-nav.is-active {
+    // left: 0;
+    top: 0;
+    transition: 1s;
+}
+.burger {
+    position: relative;
+    display: block;    
+    cursor: pointer;
+    border: none;
+    background: none;    
+}
+.burger .bar, .burger:after, .burger:before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: $color-2;
+    margin: 6px 0px;
+    border-radius: 10px;
+    transition: .4s;    
+}
+.burger.is-active:before {
+    transform: rotate(-45deg) translate(-6px, 6px);    
+}
+.burger.is-active:after {
+    transform: rotate(45deg) translate(-9px, -10px);
+}
+.burger.is-active .bar {
+    opacity: 0;
+}
+.mobile-nav-links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;    
+    height: 600px;
+    .mobile-nav-link {
+        font-family: $font-1;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 35px;
+    }    
+}
+// MOBILE NAV END

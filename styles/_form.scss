@@ -1,0 +1,82 @@
+//VARIABLES
+
+//COLORS
+$color-1: #2f2d2d;
+$color-2: #FBF8F4;
+$color-3: white;
+$color-4: #FEF2D4;
+
+//FONTS
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap');
+$font-1: 'Lexend Tera', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+$font-2: 'Mulish', sans-serif;
+
+//PADDING
+$padding-top: 100px;
+$padding-bottom: 100px;
+
+//OTHER
+#form-contacto {    
+    padding: 0;
+    height: 50vh;
+    min-height: 500px;    
+    .form-container {        
+        height: 450px;
+        width: 90%;        
+        #form-titulo {
+            margin-bottom: 20px;
+            .form-call-to-action {
+                font-size: 16px;
+            }
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            font-family: $font-2;
+            .data-input {
+                margin-bottom: 15px;
+                margin-top: 3px;
+            }
+            .form-nombre {
+                font-weight: 200;
+                font-size: 14px;
+            }
+            .form-mail {
+                font-weight: 200;
+                font-size: 14px;
+            }
+            .form-tel {
+                font-weight: 200;
+                font-size: 14px;
+            }
+            .form-mensaje {
+                font-weight: 200;
+                font-size: 14px;
+            }
+            .data-input {
+                height: 25px;
+                padding: 2px;
+                border-radius: 10p;
+            }
+            #input-mensaje {
+                height: 100px;
+            }
+            .form-btn-container {                
+                height: 50px;
+                width: 100%;
+                display: grid;
+                place-items: center;
+                align-content: center;
+                .form-btn {                    
+                    width: 100px;
+                    height: 30px;
+                    border-radius: 5px;
+                    border: none;
+                    font-family: $font-1;                    
+                }
+            }
+            
+        }        
+    }
+}
