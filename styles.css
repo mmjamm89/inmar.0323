@@ -6,6 +6,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -78,7 +80,7 @@ section {
   color: #2f2d2d;
   margin-top: 100px;
   height: 650px;
-  min-height: 650px;
+  min-height: 6px;
 }
 
 #slider-container .slider {
@@ -141,6 +143,7 @@ section {
   margin-top: 20px;
   margin-bottom: 25px;
   cursor: pointer;
+  font-size: 22px;
 }
 
 #slider-container .slider .btn-ver-productos {
@@ -441,6 +444,10 @@ footer h5 {
   font-family: "Mulish", sans-serif;
 }
 
+#form-contacto .form-container form #time {
+  display: none;
+}
+
 #form-contacto .form-container form .data-input {
   margin-bottom: 15px;
   margin-top: 3px;
@@ -492,5 +499,74 @@ footer h5 {
   border-radius: 5px;
   border: none;
   font-family: "Lexend Tera", sans-serif;
+}
+
+#producto-destacado-container {
+  height: 500px;
+}
+
+#producto-destacado-container .producto-destacado {
+  border-radius: 5px;
+  background-color: #FBF8F4;
+  width: 90%;
+  height: 480px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#producto-destacado-container .producto-destacado .titulo-destacado {
+  width: 100%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#producto-destacado-container .producto-destacado .titulo-destacado h1 {
+  color: #2f2d2d;
+  font-size: 22px;
+}
+
+#producto-destacado-container .producto-destacado .img-destacado {
+  height: 50%;
+  width: 100%;
+  border-bottom: 2px solid #2f2d2d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#producto-destacado-container .producto-destacado .img-destacado .img {
+  width: 200px;
+  height: 90%;
+  border: 2px solid #2f2d2d;
+  border-radius: 10px;
+}
+
+#producto-destacado-container .producto-destacado .desc-destacado {
+  height: 40%;
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */

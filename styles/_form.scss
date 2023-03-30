@@ -34,6 +34,9 @@ $padding-bottom: 100px;
             display: flex;
             flex-direction: column;
             font-family: $font-2;
+            #time {
+                display: none;
+            }
             .data-input {
                 margin-bottom: 15px;
                 margin-top: 3px;

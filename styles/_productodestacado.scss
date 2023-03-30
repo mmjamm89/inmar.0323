@@ -1,0 +1,64 @@
+//VARIABLES
+
+//COLORS
+$color-1: #2f2d2d;
+$color-2: #FBF8F4;
+$color-3: white;
+$color-4: #FEF2D4;
+
+//FONTS
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap');
+$font-1: 'Lexend Tera', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+$font-2: 'Mulish', sans-serif;
+
+//PADDING
+$padding-top: 100px;
+$padding-bottom: 100px;
+
+//OTHER
+
+//STYLES
+
+#producto-destacado-container {
+    height: 500px;        
+    .producto-destacado {
+        border-radius: 5px;
+        background-color: $color-2;
+        width: 90%;
+        height: 480px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        .titulo-destacado {
+            width: 100%;
+            height: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h1 {
+                color: $color-1;
+                font-size: 22px;
+            }
+        }
+        .img-destacado {
+            height: 50%;
+            width: 100%;
+            border-bottom: 2px solid $color-1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .img {
+                width: 200px;
+                height: 90%;
+                border: 2px solid $color-1;
+                border-radius: 10px;
+            }
+        }
+        .desc-destacado {
+            height: 40%;
+            width: 100%;
+        }
+    }
+}
