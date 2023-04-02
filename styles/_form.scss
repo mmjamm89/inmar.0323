@@ -18,7 +18,7 @@ $padding-bottom: 100px;
 
 //OTHER
 #form-contacto {    
-    padding: 0;
+    padding-top: 120px;
     height: 50vh;
     min-height: 500px;    
     .form-container {        
@@ -43,19 +43,23 @@ $padding-bottom: 100px;
             }
             .form-nombre {
                 font-weight: 200;
-                font-size: 14px;
+                font-size: 16px;
+                font-weight: bold;
             }
             .form-mail {
                 font-weight: 200;
-                font-size: 14px;
+                font-size: 16px;
+                font-weight: bold;
             }
             .form-tel {
                 font-weight: 200;
-                font-size: 14px;
+                font-size: 16px;
+                font-weight: bold;
             }
             .form-mensaje {
                 font-weight: 200;
-                font-size: 14px;
+                font-size: 16px;
+                font-weight: bold;
             }
             .data-input {
                 height: 25px;
@@ -72,11 +76,13 @@ $padding-bottom: 100px;
                 place-items: center;
                 align-content: center;
                 .form-btn {                    
-                    width: 100px;
-                    height: 30px;
+                    width: 140px;
+                    height: 50px;
                     border-radius: 5px;
                     border: none;
                     font-family: $font-1;                    
+                    font-size: 18px;
+                    font-weight: bold;
                 }
             }
             

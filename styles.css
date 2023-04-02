@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Tera:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
@@ -48,7 +50,7 @@ section {
   place-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  font-family: "Lexend Tera", sans-serif;
+  font-family: "Questrial", sans-serif;
 }
 
 .hidden {
@@ -112,7 +114,12 @@ section {
 }
 
 #slider-container .slider .titulo-main .texto-titulo {
-  font-size: 20px;
+  font-family: "Lexend Tera", sans-serif;
+  font-weight: 700;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 26px;
+  text-align: center;
 }
 
 #slider-container .slider .descripcion-main {
@@ -124,6 +131,12 @@ section {
 #slider-container .slider .descripcion-main p {
   font-family: "Mulish", sans-serif;
   font-size: 14px;
+}
+
+#slider-container .slider .descripcion-main h3 {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Lexend Tera", sans-serif;
 }
 
 #slider-container .slider .call-to-action {
@@ -146,22 +159,53 @@ section {
   font-size: 22px;
 }
 
-#slider-container .slider .btn-ver-productos {
-  margin-bottom: 20px;
-}
-
-#slider-container .slider .btn-ver-productos a {
+#slider-container .slider .call-to-action .btn-contacto a {
   text-decoration: none;
   cursor: pointer;
 }
 
-#slider-container .slider .btn-ver-productos a h4 {
+#slider-container .slider .call-to-action .btn-contacto a h4 {
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 26px;
   color: #2f2d2d;
-  font-size: 22px;
+}
+
+#slider-container .slider .call-to-action:hover {
+  background-color: #2f2d2d;
+}
+
+#slider-container .slider .call-to-action .btn-contacto a h4:hover {
+  color: #FBF8F4;
+}
+
+#slider-container .slider .btn-cotizacion {
+  height: 15%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#slider-container .slider .btn-cotizacion a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#slider-container .slider .btn-cotizacion a h4 {
+  font-family: "Lexend Tera", sans-serif;
+  color: #2f2d2d;
+  font-size: 23px;
+  font-weight: bold;
 }
 
 #slider-container .slider .call-svg {
-  height: 40%;
+  height: 30%;
   width: 100%;
   display: -ms-grid;
   display: grid;
@@ -206,14 +250,14 @@ section {
 
 #caracteristicas .caracteristicas-container .listado-carac {
   font-size: 18px;
-  font-family: "Mulish", sans-serif;
+  font-family: "Questrial", sans-serif;
   font-weight: 600;
   text-align: center;
 }
 
 #caracteristicas .caracteristicas-container .texto-caracteristicas {
   font-family: "Lexend Tera", sans-serif;
-  font-size: 14px;
+  font-size: 22px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -221,7 +265,7 @@ section {
 #datos-contacto {
   height: 250px;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 50px;
 }
 
@@ -248,12 +292,12 @@ section {
 }
 
 #datos-contacto .datos-contacto .datos-fm h1 {
-  font-size: 16px;
+  font-size: 26px;
   margin-bottom: 5px;
 }
 
 #datos-contacto .datos-contacto .datos-fm h3 {
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 2px;
 }
 
@@ -263,17 +307,17 @@ section {
 }
 
 #datos-contacto .datos-contacto .datos-jm h1 {
-  font-size: 16px;
+  font-size: 26px;
   margin-bottom: 5px;
 }
 
 #datos-contacto .datos-contacto .datos-jm h3 {
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 2px;
 }
 
 #datos-contacto .datos-contacto .mail-ventas {
-  font-size: 18px;
+  font-size: 28px;
   text-align: center;
   height: 20%;
 }
@@ -392,7 +436,7 @@ section {
 }
 
 .mobile-nav-links-container .mobile-nav-link {
-  font-family: "Lexend Tera", sans-serif;
+  font-family: "Questrial", sans-serif;
   text-decoration: none;
   cursor: pointer;
   font-size: 35px;
@@ -415,7 +459,7 @@ footer h5 {
 }
 
 #form-contacto {
-  padding: 0;
+  padding-top: 120px;
   height: 50vh;
   min-height: 500px;
 }
@@ -455,22 +499,26 @@ footer h5 {
 
 #form-contacto .form-container form .form-nombre {
   font-weight: 200;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 #form-contacto .form-container form .form-mail {
   font-weight: 200;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 #form-contacto .form-container form .form-tel {
   font-weight: 200;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 #form-contacto .form-container form .form-mensaje {
   font-weight: 200;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 #form-contacto .form-container form .data-input {
@@ -494,11 +542,13 @@ footer h5 {
 }
 
 #form-contacto .form-container form .form-btn-container .form-btn {
-  width: 100px;
-  height: 30px;
+  width: 140px;
+  height: 50px;
   border-radius: 5px;
   border: none;
   font-family: "Lexend Tera", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 #producto-destacado-container {
@@ -540,13 +590,12 @@ footer h5 {
 
 #producto-destacado-container .producto-destacado .titulo-destacado h1 {
   color: #2f2d2d;
-  font-size: 22px;
+  font-size: 26px;
 }
 
 #producto-destacado-container .producto-destacado .img-destacado {
   height: 50%;
   width: 100%;
-  border-bottom: 2px solid #2f2d2d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -586,7 +635,7 @@ footer h5 {
 
 #producto-destacado-container .producto-destacado .desc-destacado .desc-destacado-titulo {
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   width: 100%;
   height: 30%;
   display: -webkit-box;
@@ -606,7 +655,7 @@ footer h5 {
 
 #producto-destacado-container .producto-destacado .desc-destacado .desc-destacado-descripcion {
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   width: 100%;
   height: 30%;
   display: -webkit-box;
@@ -633,5 +682,10 @@ footer h5 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+}
+
+#producto-destacado-container .producto-destacado .desc-destacado .desc-destacado-link a {
+  font-size: 18px;
+  color: #2f2d2d;
 }
 /*# sourceMappingURL=styles.css.map */
