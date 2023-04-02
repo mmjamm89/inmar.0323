@@ -752,10 +752,10 @@ footer h5 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin-top: 100px;
   min-height: 100vh;
   width: 90%;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 
 .main-wrapper-productos .marca-producto {
@@ -783,6 +783,10 @@ footer h5 {
   color: #FBF8F4;
   font-family: "Mulish", sans-serif;
   text-align: center;
+}
+
+.main-wrapper-productos .entre-rios {
+  margin-bottom: 50px;
 }
 
 .main-wrapper-productos #productos {
@@ -872,13 +876,87 @@ footer h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.main-wrapper-kaiken .kaiken-container .logo-kaiken-container {
+  width: 100%;
+  height: 150px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.main-wrapper-kaiken .kaiken-container .logo-kaiken-container h1 {
+  font-family: "Mulish", sans-serif;
+  color: #FBF8F4;
+  font-size: 75px;
+}
+
+.main-wrapper-kaiken .kaiken-container .descripcion-kaiken-container {
+  height: 100px;
+  width: 100%;
+  color: #FBF8F4;
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+  font-size: 12px;
+}
+
+.main-wrapper-kaiken .kaiken-container .slider-kaiken-container {
+  width: 100%;
+  height: 250px;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.main-wrapper-kaiken .kaiken-container h1 {
+.main-wrapper-kaiken .kaiken-container .slider-kaiken-container h1 {
   color: #FBF8F4;
-  font-family: "Lexend Tera", sans-serif;
+  font-family: "Mulish", sans-serif;
+}
+
+.main-wrapper-kaiken .kaiken-container .texto-kaiken-container {
+  width: 100%;
+}
+
+.main-wrapper-kaiken .kaiken-container .texto-kaiken-container p {
+  color: #FBF8F4;
+  font-family: "Mulish", sans-serif;
+  font-size: 12px;
+}
+
+.main-wrapper-kaiken .kaiken-container .solicite-cotizacion-container {
+  width: 100%;
+  height: 150px;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.main-wrapper-kaiken .kaiken-container .solicite-cotizacion-container a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main-wrapper-kaiken .kaiken-container .solicite-cotizacion-container a h1 {
+  color: #FBF8F4;
+  font-family: "Mulish", sans-serif;
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */
