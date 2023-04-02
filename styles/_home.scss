@@ -19,7 +19,7 @@ $font-4: 'Epilogue', sans-serif;
 
 //PADDING
 $padding-top: 100px;
-$padding-bottom: 100px;
+$padding-bottom: 80px;
 
 //OTHER
 
@@ -33,7 +33,7 @@ $padding-bottom: 100px;
 
 body {
     background-color: $color-1;
-    overflow-x: hidden;
+    overflow-x: hidden;    
 }
 
 #page-container {

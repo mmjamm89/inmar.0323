@@ -19,12 +19,12 @@ $font-4: 'Epilogue', sans-serif;
 
 //PADDING
 $padding-top: 100px;
-$padding-bottom: 100px;
+$padding-bottom: 80px;
 
 //OTHER
 
 //STYLES
 
 .main-wrapper-contacto {
-    margin-top: 20px;
+    padding-bottom: $padding-bottom;
 }
