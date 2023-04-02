@@ -10,6 +10,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Tera:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Tera:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Tera:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -467,6 +479,7 @@ footer h5 {
 #form-contacto .form-container {
   height: 450px;
   width: 90%;
+  max-width: 500px;
 }
 
 #form-contacto .form-container #form-titulo {
@@ -524,7 +537,8 @@ footer h5 {
 #form-contacto .form-container form .data-input {
   height: 25px;
   padding: 2px;
-  border-radius: 10p;
+  border-radius: 5px;
+  background-color: #FBF8F4;
 }
 
 #form-contacto .form-container form #input-mensaje {
@@ -549,6 +563,7 @@ footer h5 {
   font-family: "Lexend Tera", sans-serif;
   font-size: 18px;
   font-weight: bold;
+  margin-top: 30px;
 }
 
 #producto-destacado-container {
@@ -572,6 +587,8 @@ footer h5 {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding: 10px;
+  max-width: 400px;
 }
 
 #producto-destacado-container .producto-destacado .titulo-destacado {
@@ -687,5 +704,143 @@ footer h5 {
 #producto-destacado-container .producto-destacado .desc-destacado .desc-destacado-link a {
   font-size: 18px;
   color: #2f2d2d;
+}
+
+.main-wrapper-contacto {
+  margin-top: 20px;
+}
+
+.main-wrapper-empresa {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-wrapper-empresa h1 {
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.main-wrapper-productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 100px;
+  min-height: 100vh;
+  width: 90%;
+  padding-bottom: 50px;
+}
+
+.main-wrapper-productos .marca-producto {
+  color: #FBF8F4;
+  font-family: "Mulish", sans-serif;
+}
+
+.main-wrapper-productos .titulo-productos {
+  margin-top: 10px;
+}
+
+.main-wrapper-productos .titulo-productos h1 {
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.main-wrapper-productos .descripcion-productos {
+  margin-top: 40px;
+}
+
+.main-wrapper-productos .descripcion-productos p {
+  color: #FBF8F4;
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+}
+
+.main-wrapper-productos #productos {
+  margin-top: 20px;
+  height: 160px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 500px;
+}
+
+.main-wrapper-productos #productos .img-producto {
+  width: 40%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-wrapper-productos #productos .img-producto img {
+  border: 2px solid #FBF8F4;
+  border-radius: 5px;
+  width: 90%;
+  height: 90%;
+}
+
+.main-wrapper-productos #productos .desc-producto-container {
+  width: 60%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-wrapper-productos #productos .desc-producto-container .desc-producto {
+  color: #FBF8F4;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+}
+
+.main-wrapper-productos #productos .desc-producto-container a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: #FBF8F4;
+  font-family: "Mulish", sans-serif;
 }
 /*# sourceMappingURL=styles.css.map */

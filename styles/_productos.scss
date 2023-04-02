@@ -1,0 +1,98 @@
+//VARIABLES
+
+//COLORS
+$color-1: #2f2d2d;
+$color-2: #FBF8F4;
+$color-3: white;
+$color-4: #FEF2D4;
+
+//FONTS
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Tera:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$font-1: 'Lexend Tera', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+$font-2: 'Mulish', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+$font-3: 'Questrial', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$font-4: 'Epilogue', sans-serif;
+
+
+//PADDING
+$padding-top: 100px;
+$padding-bottom: 100px;
+
+//OTHER
+
+//STYLES
+.main-wrapper-productos {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;    
+    margin-top: 100px;
+    min-height: 100vh;
+    width: 90%;
+    padding-bottom: 50px;
+    .marca-producto {
+        color: $color-2;
+        font-family: $font-2;
+    }
+    .titulo-productos {
+        margin-top: 10px;
+        h1 {
+            color: $color-2;
+            font-family: $font-1;
+            font-size: 24px;
+            text-align: center;
+        }    
+    }
+    .descripcion-productos {
+        margin-top: 40px;
+        p {
+            color: $color-2;
+            font-family: $font-2;
+            text-align: center;
+        }
+    }
+    #productos {        
+        margin-top: 20px;
+        height: 160px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 500px;
+        .img-producto {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;            
+            img {
+                border: 2px solid $color-2;
+                border-radius: 5px;
+                width: 90%;
+                height: 90%;
+            }
+        }        
+        .desc-producto-container {
+            width: 60%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            .desc-producto {
+                color: $color-2;
+                font-family: $font-2;
+                font-size: 20px;
+            }
+            a {
+                margin-top: 20px;
+                text-decoration: none;
+                color: $color-2;
+                font-family: $font-2;
+            }
+        }
+    }
+}

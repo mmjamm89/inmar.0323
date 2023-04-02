@@ -21,7 +21,7 @@ $padding-bottom: 100px;
 //STYLES
 
 #producto-destacado-container {
-    height: 500px;        
+    height: 500px;
     .producto-destacado {
         border-radius: 5px;
         background-color: $color-2;
@@ -31,6 +31,8 @@ $padding-bottom: 100px;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        padding: 10px;
+        max-width: 400px;
         .titulo-destacado {
             width: 100%;
             height: 10%;
