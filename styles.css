@@ -54,7 +54,7 @@ body {
 }
 
 #page-container #main-wrapper {
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
@@ -727,7 +727,7 @@ footer h5 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
@@ -860,7 +860,7 @@ footer h5 {
 .main-wrapper-kaiken .kaiken-container {
   min-height: 100vh;
   padding-top: 80px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;

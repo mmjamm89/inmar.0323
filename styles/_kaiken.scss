@@ -18,8 +18,8 @@ $font-4: 'Epilogue', sans-serif;
 
 
 //PADDING
-$padding-top: 100px;
-$padding-bottom: 100px;
+$padding-top: 80px;
+$padding-bottom: 80px;
 
 //OTHER
 
@@ -29,8 +29,8 @@ $padding-bottom: 100px;
     width: 90%;
     .kaiken-container {
         min-height: 100vh;        
-        padding-top: 80px;
-        padding-bottom: 100px;
+        padding-top: $padding-top;
+        padding-bottom: $padding-bottom;
         width: 100%;
         display: flex;
         flex-direction: column;
