@@ -24,7 +24,26 @@ $padding-bottom: 80px;
 //OTHER
 
 //STYLES
-
-.main-wrapper-contacto {
-    padding-bottom: $padding-bottom;    
+.carousel-home-wrapper {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    .carousel-home-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        height: 100%;
+        width: 90%;
+        border-radius: 10px;
+        transition: all .2s ease-in;     
+        overflow: hidden;   
+        img {
+            width: 100%;            
+            object-fit: cover;
+        }
+    }    
 }

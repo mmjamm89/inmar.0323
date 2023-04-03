@@ -54,12 +54,10 @@ $padding-bottom: 80px;
             font-family: $font-2;
             text-align: center;
         }
-    }
-    .entre-rios {
-        margin-bottom: 50px;
-    }    
+    }  
     #productos {        
         margin-top: 20px;
+        margin-bottom: 20px;
         height: 160px;
         width: 100%;
         display: flex;
@@ -98,5 +96,5 @@ $padding-bottom: 80px;
                 font-family: $font-2;
             }
         }
-    }
+    }    
 }
